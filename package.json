@@ -1,0 +1,30 @@
+{
+    "name": "tax-calculator-app",
+    "version": "1.0.0",
+    "description": "A tax calculator web application",
+    "scripts": {
+      "start": "node src/script.js",  
+      "build": "echo 'Building your application...'",  
+      "test": "jest"                  
+    },
+    "keywords": [
+      "tax",
+      "calculator",
+      "web",
+      "application"
+    ],
+    "author": "Vakar Ahmad",
+    "license": "MIT",
+    "devDependencies": {
+      "@jest/globals": "^27.4.0",  
+      "puppeteer": "^20.3.0"       
+    },
+    "dependencies": {
+      "bootstrap": "^5.3.3",
+      "jquery": "^3.6.0"
+    },
+    "jest": {
+      "testEnvironment": "node"    
+    }
+  }
+  
