@@ -1,0 +1,41 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.card {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Basic styling for the form and modal */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.error-icon {
+  display: none;
+  /* Add styling for error icon */
+}
+
+.modal {
+  color: rgba(0, 0, 0, 0.76);
+}
+
+.custom-tooltip {
+  --bs-tooltip-bg: var(--bd-violet-bg);
+  --bs-tooltip-color: var(--bs-white);
+}
