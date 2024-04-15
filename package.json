@@ -2,7 +2,7 @@
     "name": "tax-calculator-app",
     "version": "1.0.0",
     "description": "A tax calculator web application",
-    "main": "src/index.html",
+    "main": "src/script.js",
     "scripts": {
       "start": "parcel ./src/index.html",
       "build": "parcel build ./src/index.html",   
